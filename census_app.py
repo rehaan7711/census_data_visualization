@@ -47,4 +47,4 @@ census_df = load_data()
 # Using the 'if' statement, display raw data on the click of the checkbox.
 if st.sidebar.checkbox("Show raw data"):
   st.subheader("Census Data set")
-  st.dataframe(df)
+  st.dataframe(census_df)
